@@ -236,6 +236,21 @@ st.markdown(
 )
 
 # --------------------------------------------------
+# Aviso de prototipo en progreso
+# --------------------------------------------------
+
+st.markdown(
+    """
+    <div role="note" style="border:2px dashed #9B5700; background:#FFF4E6; color:#5A3300;
+         border-radius:14px; padding:.7rem 1rem; margin-bottom:1rem; font-size:.95rem;">
+        🚧 <b>Prototipo en progreso.</b> Faltan los videos oficiales, algunos PDF y los logos,
+        y los derechos escogidos están pendientes de aprobación.
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
+
+# --------------------------------------------------
 # Barra de navegación (siempre visible)
 # --------------------------------------------------
 
